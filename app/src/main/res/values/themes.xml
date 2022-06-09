@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- To see how these attributes are used, please visit https://material.io/develop/android/theming/color/ -->
+    <style name="Base.Theme.Anime" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/anime_green_500</item>
+        <item name="colorOnPrimary">@color/anime_yellow_500</item>
+        <item name="colorPrimaryDark">@color/anime_green_700</item>
+        <item name="colorOnSurface">@color/anime_black</item>
+        <item name="colorAccent">@color/anime_green_700</item>
+        <item name="colorSurface">@color/anime_gray_50</item>
+        <item name="colorSecondary">@color/anime_yellow_500</item>
+        <item name="android:colorBackground">@color/anime_white</item>
+    </style>
+
+    <style name="Theme.Anime" parent="Base.Theme.Anime"/>
+
+    <style name="Theme.Anime.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Anime.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+
+    <style name="TextAppearance.Anime.Toolbar.Text" parent="TextAppearance.MaterialComponents.Headline5" >
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+</resources>

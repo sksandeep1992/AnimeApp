@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/anime_nav_graph"
+    app:startDestination="@id/viewPagerFragment">
+
+    <fragment
+        android:id="@+id/animeFragment"
+        android:name="sk.sandeep.animeapp.ui.screens.fragments.AnimeFragment"
+        android:label="fragment_anime"
+        tools:layout="@layout/fragment_anime" />
+    <fragment
+        android:id="@+id/mangaFragment"
+        android:name="sk.sandeep.animeapp.ui.screens.fragments.MangaFragment"
+        android:label="fragment_manga"
+        tools:layout="@layout/fragment_manga" />
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="sk.sandeep.animeapp.ui.screens.fragments.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" />
+    <fragment
+        android:id="@+id/animeDetailFragment"
+        android:name="sk.sandeep.animeapp.ui.screens.fragments.AnimeDetailFragment"
+        android:label="fragment_anime_detail"
+        tools:layout="@layout/fragment_anime_detail" />
+    <fragment
+        android:id="@+id/mangaDetailFragment"
+        android:name="sk.sandeep.animeapp.ui.screens.fragments.MangaDetailFragment"
+        android:label="fragment_manga_detail"
+        tools:layout="@layout/fragment_manga_detail" />
+</navigation>

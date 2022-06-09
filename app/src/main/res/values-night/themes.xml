@@ -1,0 +1,13 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Anime" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/anime_green_500</item>
+        <item name="colorOnPrimary">@color/anime_yellow_500</item>
+        <item name="colorPrimaryDark">@color/anime_green_700</item>
+        <item name="colorOnSurface">@color/anime_black</item>
+        <item name="colorAccent">@color/anime_green_700</item>
+        <item name="colorSurface">@color/anime_gray_50</item>
+        <item name="colorSecondary">@color/anime_yellow_500</item>
+        <item name="android:colorBackground">@color/anime_green_500</item>
+    </style>
+</resources>
