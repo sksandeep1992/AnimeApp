@@ -3,9 +3,11 @@ package sk.sandeep.animeapp.ui.screens.activity
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil.setContentView
+import dagger.hilt.android.AndroidEntryPoint
 import sk.sandeep.animeapp.R
 import sk.sandeep.animeapp.databinding.ActivityAnimeBinding
 
+@AndroidEntryPoint
 class AnimeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
