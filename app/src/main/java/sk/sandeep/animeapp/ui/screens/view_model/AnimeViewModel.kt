@@ -7,7 +7,7 @@ import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import retrofit2.Response
-import sk.sandeep.animeapp.data.remote.dto.TopAnimeApiResponse
+import sk.sandeep.animeapp.data.remote.dto.anime.TopAnimeApiResponse
 import sk.sandeep.animeapp.repository.AnimeRepository
 import sk.sandeep.animeapp.ui.screens.fragments.AnimeState
 import sk.sandeep.animeapp.util.Resource

@@ -1,9 +1,9 @@
-package sk.sandeep.animeapp.data.remote.dto
+package sk.sandeep.animeapp.data.remote.dto.anime
 
 
 import com.google.gson.annotations.SerializedName
 
-data class Genre(
+data class Licensor(
     @SerializedName("mal_id")
     val malId: Int,
     @SerializedName("name")

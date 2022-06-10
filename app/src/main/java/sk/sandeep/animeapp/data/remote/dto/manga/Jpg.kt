@@ -1,9 +1,9 @@
-package sk.sandeep.animeapp.data.remote.dto
+package sk.sandeep.animeapp.data.remote.dto.manga
 
 
 import com.google.gson.annotations.SerializedName
 
-data class Webp(
+data class Jpg(
     @SerializedName("image_url")
     val imageUrl: String,
     @SerializedName("large_image_url")

@@ -1,9 +1,9 @@
-package sk.sandeep.animeapp.data.remote.dto
+package sk.sandeep.animeapp.data.remote.dto.anime
 
 
 import com.google.gson.annotations.SerializedName
 
-data class From(
+data class To(
     @SerializedName("day")
     val day: Int,
     @SerializedName("month")

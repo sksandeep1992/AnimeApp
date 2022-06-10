@@ -1,6 +1,6 @@
 package sk.sandeep.animeapp.ui.screens.fragments
 
-import sk.sandeep.animeapp.data.remote.dto.Data
+import sk.sandeep.animeapp.data.remote.dto.anime.Data
 
 data class AnimeState(
     val isLoading: Boolean = false,
